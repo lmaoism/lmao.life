@@ -8,7 +8,7 @@ We on the Lmaoism team believe that one can “LMAO with Mao!”, and this is re
 
 (fill this out when we settle on something)
 
-Isn’t cryptocurrency a capitalist invention? Is it counter to the spirit of Marxism-Leninism to sell digital art for profit?
+## Isn’t cryptocurrency a capitalist invention? Is it counter to the spirit of Marxism-Leninism to sell digital art for profit?
 
 While it is undeniable that the novel digital technology of blockchain and Web3 has been vulgarly exploited as a site for the most grotesque expressions of capitalist greed (as is the case with all technology placed into the hands of the bankers, politicans, and generals of the imperialist-capitalist West), a properly dialectical Marxist-Leninist perspective will inform us that the same method of production which has been used to trample, oppress, and injure the proletariat can take on a revolutionary character when seized from the hands of the powerful capitalist interests and enlivened with the abundant spirits of working people. 
 
