@@ -2,7 +2,7 @@
 
 Lmaoism is a Web3 net-art project conceptualized with the mission of educating and informing the masses on the philosophies of Marxist-Leninist dialectical materialism, Communism with Chinese Characteristics, and Xi Jinping Thought. Our collection of 888 limited-edition digital paintings combine socialist realist iconography from the historical revolutionary mass-media campaigns of the  Communist Party of China with contemporary digital art motifs in the style of today’s twenty-first-century online youth. 
 
-We on the Lmaoism team believe that one can “LMAO with Mao!”, and this is reflected in the laughter on the faces of the representatives of the peasantry depicted in our artworks. To express joy and exuberance is to embrace the revolutionary spirit of dialectical materialism when experienced at its highest potential - though the revolutionary has a difficult road ahead of him, strewn with the foulest of obstacles flung in his path by the bourgeois-reactionary enemy, he nevertheless happily wages struggle on behalf of the global proletariat, secured by the justice of his cause, and the certainity of imperialist-capitalism’s inevitable defeat. 
+We on the Lmaoism team believe that to express laughter and exuberance is to embrace the revolutionary spirit of dialectical materialism when experienced at its highest potential - though the revolutionary has a difficult road ahead of him, strewn with the foulest of obstacles flung in his path by the bourgeois-reactionary enemy, he nevertheless joyfully wages struggle on behalf of the global proletariat, secured by the justice of his cause, and the certainity of imperialist-capitalism’s inevitable defeat. 
 
 ## How will the art be distributed? 
 
