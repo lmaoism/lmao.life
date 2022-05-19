@@ -1,4 +1,26 @@
 <title>🇨🇳😂 </title>
+<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+<script>
+  console.log(solanaWeb3);
+  function hideSignup () {
+    document.getElementById("signup").style.display = "none";
+      document.getElementById("signup-button").style.display = "block";
+  }
+  function showSignup () {
+      document.getElementById("signup").style.display = "block";
+      document.getElementById("signup-button").style.display = "none";
+  }
+  function goToTweet() {
+    let urlString = encodeURIComponent("My Spirit is One With Revolution 🔥 @lmao_ism [insert_solana_address_here]");
+    window.location = "https://twitter.com/intent/tweet?url=" + urlString;
+  }
+  window.onload = function() {
+    var url = document.location.href;
+    if (url.indexOf('show-signup=yes') >= 0) {
+      showSignup();
+    }
+  }
+</script>
 <style type="text/css">
   body {
     background-color:#450203;
@@ -50,43 +72,113 @@
     background-size:100% 100%;
     border-radius:3px;
   }
-  #twitter-button {
+  #signup-button {
     position:fixed;
     bottom: 5px;
     right: 5px;
     font-size:36px;
-    background-color:#ff0000;
     padding:5px;
+    font-size:36px;
   }
-  #twitter-button a {
+  #follow {
+    text-align: center;
+    display:inline-block;
+    margin: auto;
+    font-size:24px;
+  }
+  .centered {
+    text-align:center;
+  }
+  .hype {
+    background-color:#ff0000;
+  }
+  .hype a {
+    cursor:pointer;
     text-decoration:none;
     color:#ffcc00;
   }
-  #twitter-button:hover {
+  .hype:hover {
     background-color:#ffcc00;
   }
-  #twitter-button:hover a {
-    background-color:#ff0000;
+  .hype a:hover {
+    color:#ff0000;
+  }
+  .hype:hover a {
+    color:#ff0000;
   }
   #lmaoism-banner {
     width:100%;
     border-radius:5px;
   }
+  #signup {
+    position:fixed;
+    margin:auto;
+    padding:15px;
+    display:none;
+    background-color:#260000;
+    width:80%;
+    left:10%;
+    top:100px;
+    color:#ffcc00;
+    border:1px solid #ffcc00;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.375);
+  }
+  a {
+    color:#ffcc00;
+  }
+  #tweet-now {
+    display:inline-block;
+    font-size:30px;
+  }
 </style>
 <div id="main">
 <div style="text-align:center; font-size:48px; margin-bottom:0px;">🇨🇳😂</div>
 <h1 id="welcome-comrades-">🎊 Welcome, comrades! 🎉</h1>
-<div id="twitter-button">
-  <a href="https://twitter.com/lmao_ism?ref_src=twsrc%5Etfw" data-show-count="false">Follow @lmao_ism <br/> on Twitter!</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="signup">
+  <div style="text-align:right; cursor:pointer;"><a onclick="hideSignup()">X</a></div>
+  <h1>✊🏼 Claim your free Lmaoism NFT! ✊🏾</h1>
+  <p>In order to participate in Lmaoism, you will need a Solana address and a Twitter account. (If you're making a new Twitter
+    for the sake of Lmaoism, post a little bit, follow some people, etc. so we know you're not a bot, and so we know you're ready to speak
+    on behalf of the proletariat and the Party.) 
+  </p>
+  <p>
+    1. Download a <a href="https://solana.com/">Solana</a> wallet and create a public/private keypair. There are many options 
+    for Solana wallets, we recommend <a href="https://phantom.app/">Phantom</a> or <a href="https://solflare.com/">Solflare</a>.
+    Make sure you store your Solana credentials in a safe place.
+  </p>
+  <p>
+    2. Make a tweet that includes the following: 
+    The phrase "My Spirit is One of Revolution", your Solana address, and the tag <a href="http://twitter.com/lmao_ism">@lmao_ism</a>.
+  </p>
+  <p>
+    <div class="centered">
+      <div id="tweet-now" class="hype"> 
+        <a onclick="goToTweet()">Tweet now to join the revolution!</a>
+      </div>
+    </div>
+  </p>
+  <p>
+    And that's it! A free NFT will be reserved for your Solana address upon project launch.
+  </p>
+</div>
+<div id="signup-button" class="hype">
+  <a onclick="showSignup()">Free Lmaoism NFT! <br/> Click to sign up now! 😭</a>
 </div>
 <img id="lmaoism-banner" src="lmaoismbanner.png" />
+  <div class="centered">
+    <div id="follow" class="hype">
+      <a href="https://twitter.com/lmao_ism?ref_src=twsrc%5Etfw" data-show-count="false">
+        Follow @lmao_ism on Twitter!
+      </a>
+    </div>  
+  </div>
 <h2 id="glory-to-the-people-s-republic-of-china-">Glory to the People’s Republic of China!</h2>
-
-
-<p>Lmaoism is a Web3 net-art project to inform and educate the masses on the philosophies of Marxist-Leninist dialectical materialism, Communism with Chinese Characteristics, and Xi Jinping Thought. Our collection of 888 limited-edition digital paintings combine socialist realist iconography from the historical revolutionary mass-media campaigns of the Communist Party of China with contemporary digital art motifs in the style of today’s twenty-first-century online youth.</p>
+<p>Lmaoism is a Web3 net-art project to inform and educate the masses on the philosophies of Marxist-Leninist dialectical materialism, Communism with Chinese Characteristics, and Xi Jinping Thought. Our collection of 8888 limited-edition digital paintings combine socialist realist iconography from the historical revolutionary mass-media campaigns of the Communist Party of China with contemporary digital art motifs in the style of today’s twenty-first-century online youth.</p>
 <p>We on the Lmaoism team believe that to express laughter and exuberance is to embrace the revolutionary spirit of dialectical materialism when experienced at its highest potential - though the revolutionary has a difficult road ahead of him, strewn with the foulest of obstacles flung in his path by the bourgeois-reactionary enemy, he nevertheless joyfully wages struggle on behalf of the global proletariat, secure in the justice of his cause, and the certainty of imperialist-capitalism’s inevitable defeat.</p>
 <h2 id="how-will-the-art-be-distributed-">How will the art be distributed?</h2>
-<p>From each according to his ability; to each according to his needs.</p>
+<p>Lmaoism will reject the acquisitive capitalist logic of most NFT projects through giving our NFTs away <b>for free</b>! 
+  <span class="hype" ><a onclick="showSignup()" >Signing up now to receive a free NFT</a></span> is an absolute free-win situation, given that we expect the project to be successful 
+  and for the NFTs to accrue value for the sake of funding our on-chain Communist Party. It's free money for the masses, and you don't even wait for after the revolution to receive it!</p>
 <h2 id="isn-t-cryptocurrency-a-capitalist-invention-is-it-counter-to-the-spirit-of-marxism-leninism-to-sell-digital-art-for-profit-">Isn’t cryptocurrency a capitalist invention? Is it counter to the spirit of Marxism-Leninism to sell digital art for profit?</h2>
 <p>While it is undeniable that the novel digital technology of blockchain and Web3 has been vulgarly exploited as a site for the most grotesque expressions of capitalist greed (as is the case with all technology placed into the hands of the bankers, politicians, and generals of the imperialist-capitalist West), a properly dialectical Marxist-Leninist perspective will inform us that <strong>the same method of production which has been used to trample, oppress, and injure the proletariat can take on a revolutionary character when seized from the hands of the powerful capitalist interests and enlivened with the abundant spirits of working people.</strong></p>
 <p>We would do well to reflect on the immortal wisdom of Vladimir Lenin, when he told us: </p>
@@ -105,10 +197,16 @@
 </ul>
 <p>The glory, justice, and swift decision-making of the People’s Republic of China leadership can be seen in their decision of December 2021 to bring the full fury of the revolutionary state upon the reactionary-fascist elements in the population contributing to environmental degradation through selfish proof-of-work Bitcoin “mining”, with over twenty-five such operations in Sichaun province alone shuttered and trampled under the heel of the onward-marching proletariat. Following the example of the revolutionary state, Web3 users of a communist character cannot and should not tolerate this similar activity amongst their ranks.</p>
 <p>Conversely, comrades who lazily conflate the two divergent forms of network security after a failure to investigate the differences between the two modes of production should be brought to self-criticism for their ignorance. As Mao Zedong said, “No investigation, no right to speak!”</p>
-<p>Therefore, following these considerations, Lmaoism will be distributed on Polygon, a proof-of-stake Layer 2 network built upon Ethereum, and as such can be minted and traded without malignant effects on the climate.</p>
-<h2 id="what-are-the-long-term-goals-of-lmaoism-">What are the long-term goals of Lmaoism?</h2>
+<p>Therefore, following these considerations, Lmaoism will be distributed on Solana, a proof-of-stake (or "proof-of-history") network, and as such can be minted and traded without malignant effects on the climate.</p>
+<h2 id="what-are-the-long-term-goals-of-lmaoism-">What are the bigger-picture goals of Lmaoism?</h2>
 <p>Disseminating digital artworks of a socialist-realist character, while an important revolutionary task in itself, will be only the initial cusp of the Lmaoism project. Our goal is to develop the world’s first fully-digital revolutionary Communist Party entirely on the blockchain, the uncensorable internationally-accessible nature of which will allow our ideals to spread like wildfire among the globally-online proletariat. DAO technology can allow shared ownership of revolutionary resources trustlessly coordinated by a central committee, which can be delegated to comrades across the globe based on the philosophy of Karl Marx &amp; Fredrick Engels: “From each according to his ability, to each according to his need!”</p>
 <p>We are researching ways to incorporate “code is law” philosophy into Marxist-Leninist praxes such as the mass line, democratic centralism, and self-criticism. Through the use of trustless technology, we can further the discipline amongst party ranks and ensure an unyielding revolutionary spirit of solidarity as we wage our immortal struggle against imperialism and the oppressive institutions which have shackled us in chains.</p>
+<p>The trustless consensus-forging mechanisms of blockchain technology will allow communist ideology to be disseminated in a more 
+  rigorous manner involving mass participation and collective decision-making. Communism has been losing ground online in the past
+  decade due to the individualism, reactivity, and slack which capitalist social-media encourages, thus predisposing activists to spontenaity
+  and adventurism. Through reclaiming blockchain technology and placing it in the hands of the proletariat, we will have dismantled a cage and will use its steel to form our weapons.
+  Where were you when the cry of revolution rang out in the cities? Will you be joining us as we post our way to victory?
+</p>
 <p><em>© 2022 “CLIQUE” - Creative Commons Attribution 4.0 International (CC By 4.0)</em></p>
 </div>
 <br/>
